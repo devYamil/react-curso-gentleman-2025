@@ -6,3 +6,4 @@ EL COMPONENTE
 
 export * from "./Button/Button.tsx"
 export * from "./ButtonPersonalizado/ButtonPS.tsx"
+export * from "./ButtonCancel/ButtonCancel.tsx"

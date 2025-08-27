@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button, ButtonPS } from "./components"
+import { Button, ButtonPS, ButtonCancel } from "./components"
 import './App.css'
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
     <>
       <Button label={`Count is ${count}`} parentMethod={countMore}/>
       <ButtonPS label={`Contador es ${count}`} parentMethod={countMore}/>
+      <ButtonCancel label={`Boton cancelar precionado ${count}`} parentMethod={countMore}/>
     </>
   )
 }
